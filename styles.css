@@ -37,6 +37,11 @@ a {
     padding-bottom: 1rem;
 }
 
+i {
+    color: white;
+    font-size: 5rem;
+}
+
 a:hover {
     color: #577AFF;
 }
