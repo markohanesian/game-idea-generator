@@ -1,0 +1,84 @@
+html,
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+section {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+pre {
+    background-color: #111117;
+    margin-left: 1rem;
+}
+
+code {
+    color: white;
+    font-size: 1.2em;
+    display: flex;
+}
+
+a {
+    color: #3CE3F5;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #577AFF;
+}
+
+ol {
+    color: blacksmoke;
+}
+
+li {
+    padding: 1rem;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: black; 
+    margin: 0;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: .5rem;
+    margin-top: 0;
+    font-size: 4rem;
+    font-weight: 100;
+    letter-spacing: .1rem;
+    color: black;
+}
+
+h2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #333;
+}
+
+/* HOME SUBTITLE */
+#page-subtitle{
+    display: flex;
+    flex-direction: column;
+    font-weight: 100;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #CCADC3;
+    margin-bottom: 2rem;
+}
