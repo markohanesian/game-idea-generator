@@ -32,9 +32,17 @@ a {
     display: grid;
     place-items: center;
     align-self: center;
-    color: #3CE3F5;
+    color: #B5A8ED;
     text-decoration: none;
     padding-bottom: 1rem;
+}
+
+strong {
+    display: grid;
+    place-items: center;
+    align-self: center;
+    color: white;
+    text-decoration: none;
 }
 
 i {
@@ -105,11 +113,6 @@ button {
     background-color: lightgreen;
     font-size: 1.2rem;
     font-weight: 100;
-}
-
-button:hover {
-    transition: all .1s;
-    background-color: rgb(228, 228, 228);
 }
 
 #main-container {
