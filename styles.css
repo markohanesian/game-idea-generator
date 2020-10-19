@@ -29,8 +29,12 @@ code {
 }
 
 a {
+    display: grid;
+    place-items: center;
+    align-self: center;
     color: #3CE3F5;
     text-decoration: none;
+    padding-bottom: 1rem;
 }
 
 a:hover {
@@ -108,4 +112,11 @@ button:hover {
     flex-direction: column;
     padding: 2rem;
     margin: 2rem;
+}
+
+#footer {
+    display: block;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
 }
